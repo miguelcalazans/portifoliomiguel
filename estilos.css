@@ -1,10 +1,6 @@
 body{
     font-family: 'Work Sans', sans-serif;    
 }
-figure{
-    width: 50%;
-    margin: 5px auto;
-}
 img{
     width: 100%;
     height: auto;
@@ -15,4 +11,30 @@ abbr[title] {
 main{
     max-width: 1114px;
     margin: 0 auto;
+}
+header {
+    max-width: 1114px;
+    height: auto;
+    margin: 0 auto;
+    padding: 16px; 
+}
+header > nav > menu {
+    padding-left: 0;
+}
+header > nav > menu > li {
+    display: inline-block;
+    margin-right: 16px;
+}
+footer {
+    max-width: 1114px;
+    margin: 0 auto;
+    text-align: center;
+}
+.pagina-inicial figure {
+    width: 50%;
+    margin: 5px auto;
+}
+.pagina-inicial a {
+    display: block;
+    text-align: center;
 }
