@@ -49,3 +49,36 @@ Empurrando para o repo remoto
   <ol></ol>
   <ul></ul>
 ```
+
+## Media Query
+ - mobile
+```
+  @media (max-width: 640px) {}
+```
+ - Tablet
+```
+  @media (max-width: 768px) {}
+```
+ - Tablet-Landscape
+```
+  @media (max-width: 1024px) {}
+```
+ - Notebook
+```
+  @media (max-width: 1200px) {}
+```
+ - Desktop
+```
+  @media (max-width: 1536px) {}
+```
+
+## Atalhos
+
+- Selecionar tags iguais
+```
+  ctrl + D
+  
+  ou
+
+  alt + click
+```

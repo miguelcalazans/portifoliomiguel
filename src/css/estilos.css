@@ -1,0 +1,73 @@
+body{
+    font-family: 'Work Sans', sans-serif;    
+}
+
+abbr[title] {
+     text-decoration: none;
+}
+main{
+    max-width: 1114px;
+    margin: 0 auto;
+}
+header {
+    max-width: 1114px;
+    height: auto;
+    margin: 0 auto;
+    padding: 16px; 
+}
+header > nav > menu {
+    padding-left: 0;
+}
+header > nav > menu > li {
+    display: inline-block;
+    margin-right: 16px;
+}
+footer {
+    max-width: 1114px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Página Inicial */
+.pagina-inicial figure {
+    width: 50%;
+    margin: 5px auto;
+}
+.pagina-inicial a {
+    display: block;
+    text-align: center;
+}
+
+
+
+/* Página de curriculo */
+.pagina-curriculo .flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.pagina-curriculo .block:first-of-type {
+    width: 35%;
+}
+.pagina-curriculo .block:last-of-type {
+    width: 75%;
+}
+
+.pagina-curriculo details > summary {
+    line-height: 150%;
+    list-style: none;
+}
+.pagina-curriculo hr {
+    margin: 32px 0;
+}
+.pagina-curriculo main > .header {
+    display: flex;
+    align-items: center;
+}
+.pagina-curriculo table {
+    border-spacing: 0;
+}
+th,td {
+    border: 1px solid black;
+    padding: 16px;
+}
